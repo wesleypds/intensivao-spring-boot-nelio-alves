@@ -38,6 +38,7 @@ public class Game {
 
     private String shortDescription;
     
+    @Column(length = 500)
     private String longDescription;
 
 }
